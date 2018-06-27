@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Tobi Hoke"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "My amazing personal information repo."
   location         : "Ingolstadt, DE"
   email            :
@@ -277,4 +277,4 @@ defaults:
     values: 
       layout: single
       author_profile: true
-      
+
