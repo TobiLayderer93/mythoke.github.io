@@ -64,13 +64,13 @@ Most important
 Create the image: 
 
 ```
-docker build . -t rubykernel
+docker build . -t [imagename]
 
 ```
 
 Start Docker container: 
 ```
-docker run -it -p 8888:8888 f76d761aade9 --allow-root
+docker run -it -p 8888:8888 [imageID] --allow-root
 ```
 
 Now the notebook is available under: 
